@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a767e4dc89c5745a5ebd6ea6ecaec4, type: 3}
+  m_Name: Ant_2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - SpeakerName: Ameise
+    DialogueID: 0
+    Text: "Ooh, da steigt einer ins Gesch\xE4ft ein! Toll! Nur leider ist die Nachfrage
+      \u2013 und damit der Honigkurs \u2013 in den letzten Minuten stark angestiegen,
+      deshalb sind 3 Honigtropfen jetzt leider nicht mehr genug\u2026 ich behalte
+      sie aber gerne als Anzahlung hier..."
+    Choices:
+    - Text: "Warum sammle ich \xFCberhaupt Honig wie ein gew\xF6hnlicher K\xE4fer?
+        Ich bin immerhin ein Magier!"
+      NextDialogueID: 
+      shouldBeRemoved: 0
+      isRemoved: 0
+      Conditions: []
+    Conditions: []
+    Rewards: []

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a767e4dc89c5745a5ebd6ea6ecaec4, type: 3}
+  m_Name: Ant
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - SpeakerName: Ameise
+    DialogueID: 0
+    Text: "Ah! Ein potenzieller Investor! Ich sehe, du brauchst dringend eine neue
+      Br\xFCcke \u2013 zuf\xE4llig habe ich da gerade exklusive Anteile an einem
+      hochstabilen Premium-Stock im Angebot. Ein echtes Br\xFCcken-Start-up, wenn
+      du verstehst, was ich meine..."
+    Choices:
+    - Text: Wer bist du denn?
+      NextDialogueID: 0_c-1
+      shouldBeRemoved: 1
+      isRemoved: 0
+      Conditions: []
+    - Text: "Warum sollte ich deinen Stock kaufen? Hier liegen \xFCberall welche!"
+      NextDialogueID: 0_c-2
+      shouldBeRemoved: 0
+      isRemoved: 0
+      Conditions: []
+    - Text: Das versteh ich alles nicht. Wieso genau ist der Stock jetzt so wertvoll?
+        Nur, weil du es behauptest?
+      NextDialogueID: 0_c-3
+      shouldBeRemoved: 1
+      isRemoved: 1
+      Conditions: []
+    - Text: "Was soll der Stock denn \xFCberhaupt kosten?"
+      NextDialogueID: 0_c-4
+      shouldBeRemoved: 0
+      isRemoved: 0
+      Conditions: []
+    Conditions: []
+    Rewards: []
+  - SpeakerName: Ameise
+    DialogueID: 0_c-1
+    Text: I see, du bist neu an der Wald Street. Mein Name ist Justus-Maximilian,
+      ich bin Antpreneur und Broker am lokalen Stock Market, wie du sicher schon
+      erkannt hast.
+    Choices: []
+    Conditions: []
+    Rewards: []
+  - SpeakerName: Ameise
+    DialogueID: 0_c-2
+    Text: "Alter, das ist der Unterschied zwischen Rohholz und Premium-Investmentholz\u2122.
+      Der intrinsische Wert dieses Stocks liegt weit \xFCber seinem Materialpreis!
+      Mein Stock hat eine zertifizierte Tragkraft, gepr\xFCft von unabh\xE4ngigen
+      M\xE4rkten. Du investierst hier in eine wachsende Branche!"
+    Choices: []
+    Conditions: []
+    Rewards: []
+  - SpeakerName: Ameise
+    DialogueID: 0_c-3
+    Text: "Bro, du h\xE4ngst noch in der K\xE4ferwelt fest! Hier, das hier bringt
+      dein Mindset auf\u2019s n\xE4chste Level. Ein echter Geheimtipp unter Investoren.
+      Aber teil es dir gut ein am Anfang!"
+    Choices: []
+    Conditions: []
+    Rewards:
+    - Type: 0
+      Item: {fileID: 11400000, guid: 0eab87081dd9b63409c63ab671fd1fb1, type: 2}
+      Amount: 2
+      SceneToLoad: 
+      isGiven: 1
+  - SpeakerName: Ameise
+    DialogueID: 0_c-4
+    Text: "Drei Honigtropfen \u2013 nach aktuellem Kurs. Nat\xFCrlich nur solange
+      der Vorrat knapp ist \u2013 was er immer ist."
+    Choices: []
+    Conditions: []
+    Rewards: []

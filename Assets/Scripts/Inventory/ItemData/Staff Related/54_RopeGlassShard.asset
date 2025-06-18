@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 54_RopeGlassShard
   m_EditorClassIdentifier: 
-  itemName: Tied Glass Shard
+  itemName: Scharfes Seil
   itemID: 54
-  description: 'A glass shard tied to a rope. -
-
-    seems a bit dangerous no?'
+  description: Mein Relikt und ein Seil . . . durchaus magisch . . .
   icon: {fileID: -8425140679221238383, guid: 51a801361f04436418edf9face84b27c, type: 3}
   possibleCombinations:
   - otherItemID: 51

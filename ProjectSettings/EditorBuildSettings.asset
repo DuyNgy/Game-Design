@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Solution.unity
     guid: e3072c2716d685b4b8cde654eceeb787
+  - enabled: 1
+    path: Assets/Scenes/Level 3/Level_3.unity
+    guid: 728caba83e90e0846bf5792532838e50
+  - enabled: 1
+    path: Assets/Scenes/Level 2/Level_2_Canyon.unity
+    guid: 9671fd94f6fed744993435ea573895e2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

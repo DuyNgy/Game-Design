@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Curtain
   itemID: 57
-  description: Normal curtian
+  description: Ein Vorhang
   icon: {fileID: -422948773305535518, guid: e6fc23533711f9a4499fc2bd75d2384f, type: 3}
   possibleCombinations:
   - otherItemID: 56

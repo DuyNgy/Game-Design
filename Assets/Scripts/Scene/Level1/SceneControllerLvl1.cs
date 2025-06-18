@@ -1,4 +1,6 @@
 using System.Collections;
+using Project.Dialogue.Data;
+using Project.Interactable.NPCs;
 using Project.Inventory;
 using UnityEngine;
 
@@ -10,7 +12,9 @@ namespace Project.Scene.SceneControllerLvl1
         [SerializeField] private GameObject player;
         [SerializeField] private GameObject omi;
         [SerializeField] private GameObject omi_noCurtain;
+        [SerializeField] private DialogueData omi_panic_dialogueData;
         [SerializeField] private GameObject guard;
+        [SerializeField] private DialogueData guard_panic_dialogueData;
         [SerializeField] private GameObject villageDoor;
         [SerializeField] private RuntimeAnimatorController StaffAnim;
 
@@ -36,12 +40,14 @@ namespace Project.Scene.SceneControllerLvl1
                     Animator omiAnimator = omi.GetComponent<Animator>();
                     Debug.Log("PanicOmi? " + omiAnimator.HasState(0, Animator.StringToHash("PanicOmi")));
                     omiAnimator.Play("PanicOmi", 0, 0f);
+                    omi.GetComponent<NPC>().SetDialogueData(omi_panic_dialogueData);
                 }
 
                 if (omi_noCurtain.activeSelf)
                 {
                     Animator omiNoCurtainAnimator = omi_noCurtain.GetComponent<Animator>();
                     omiNoCurtainAnimator.Play("PanicOmi", 0, 0f);
+                    omi_noCurtain.GetComponent<NPC>().SetDialogueData(omi_panic_dialogueData);
                 }
 
                 guard.GetComponent<NPCMovement>().enabled = false;
@@ -49,6 +55,7 @@ namespace Project.Scene.SceneControllerLvl1
                 guardAnimator.Play("FireGuard", 0, 0f);
                 guard.transform.localPosition = new Vector3(-0.6f, 1.6f, 0f);
                 guard.GetComponent<SpriteRenderer>().sortingLayerName = "NPC";
+                guard.GetComponent<NPC>().SetDialogueData(guard_panic_dialogueData);
             }
         }
         void Update()
@@ -64,5 +71,5 @@ namespace Project.Scene.SceneControllerLvl1
             yield return null;
             yield return null;
         }
-    }   
+    }
 }

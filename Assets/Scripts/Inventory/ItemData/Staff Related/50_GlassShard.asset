@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 50_GlassShard
   m_EditorClassIdentifier: 
-  itemName: Shard of Glass
+  itemName: Magisches Relikt
   itemID: 50
-  description: 'A sparkling shard of glass -
-
-    you can see yourself in it'
+  description: "Ein magisches Relikt aus einer fernen Welt . . . \nDer Dorf\xE4lteste
+    nannte es \"Glas\"."
   icon: {fileID: 3891023795430930065, guid: 033f5b020970eae4c9c3635a9179173f, type: 3}
   possibleCombinations:
   - otherItemID: 52

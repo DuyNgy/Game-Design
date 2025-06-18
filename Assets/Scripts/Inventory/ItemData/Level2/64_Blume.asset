@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
+  m_Name: 64_Blume
+  m_EditorClassIdentifier: 
+  itemName: Blume
+  itemID: 64
+  description: "Eine gro\xDFe Blume"
+  icon: {fileID: 7550910836314048981, guid: cf4d89579db87cf41ae089bacc08a45a, type: 3}
+  possibleCombinations:
+  - otherItemID: 59
+    resultItem: {fileID: 11400000, guid: 0443acd3c60d48f45a70d3c567c60210, type: 2}

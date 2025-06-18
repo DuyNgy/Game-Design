@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 55_RopeRod
   m_EditorClassIdentifier: 
-  itemName: Rod with a rope
+  itemName: Schlagstock
   itemID: 55
-  description: "A rod tied to a rope - \ncould this be... nunchucks?!"
+  description: 'Ein Seil und ein Stock.
+
+    Sehen aus wie Nunchucks . . .'
   icon: {fileID: -6210984969625029711, guid: 3ea2c290ad4713e4480804239eebd7a2, type: 3}
   possibleCombinations:
   - otherItemID: 50

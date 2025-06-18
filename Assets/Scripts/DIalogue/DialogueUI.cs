@@ -18,7 +18,7 @@ namespace Project.Dialogue
 
         public void DisplayDialogue(DialogueLine dialogue)
         {
-            dialogueText.text = dialogue.Text;
+            dialogueText.text = $"{dialogue.SpeakerName}: {dialogue.Text}";
             if (CheckConditions(dialogue.Conditions) == false)
             {
                 Debug.Log("Dialogue conditions not met, skipping dialogue.");
@@ -42,6 +42,11 @@ namespace Project.Dialogue
                 if (choices[i].Conditions != null && choices[i].Conditions.Count > 0)
                 {
                     if (!CheckChoiceConditions(choices[i])) continue; // Skip this choice if conditions are not met
+                }
+
+                if (choices[i].isRemoved)
+                {
+                    continue;
                 }
 
                 var choice = choices[i];

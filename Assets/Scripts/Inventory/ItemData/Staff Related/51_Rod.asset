@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 51_Rod
   m_EditorClassIdentifier: 
-  itemName: Rod
+  itemName: Stock
   itemID: 51
-  description: "A long sturdy rod - \ngreat for travels"
+  description: 'Ein langer robuster Stock.
+
+    Perfekt als Gehstock.'
   icon: {fileID: 5734253761111765231, guid: 3a72069e968071e449d7dd99acafc52e, type: 3}
   possibleCombinations:
   - otherItemID: 52

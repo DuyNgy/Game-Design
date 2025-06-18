@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zahnrad_0: 1689857468867378052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Project.Helper;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -32,7 +33,7 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         }
     }
 
-    private void Update()
+    void Update()
     {
         if (isPointerOver)
         {
@@ -70,14 +71,14 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Pointer entered: " + itemData.itemName);
+        // Debug.Log("Pointer entered: " + itemData.itemName);
         tooltip.GetComponent<TooltipUI>().ChangeTooltip(itemData.itemName, itemData.description);
-        isPointerOver = true; 
+        isPointerOver = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("Pointer exited: " + itemData.itemName);
+        // Debug.Log("Pointer exited: " + itemData.itemName);
         isPointerOver = false;
         HideTooltip();
     }
@@ -105,7 +106,7 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
         // Hide drag image
         dragImage.enabled = false;
-        
+
         // Raycast to check if dropped on a world object
         Vector2 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D[] hits = Physics2D.RaycastAll(worldPos, Vector2.zero);
@@ -117,11 +118,10 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
             {
                 if (receiver.TryUseItem(itemData))
                 {
-                    if (itemData.itemName != "Staff")
-                    {
-                        InventoryManager.Instance.RemoveItem(itemData);
-                        InventoryUI.Instance.UpdateInventoryUI();
-                    }
+                    // Do not remove Staff and Scissors
+                    if (itemData.itemID is 56 or 59) return;
+                    InventoryManager.Instance.RemoveItem(itemData);
+                    InventoryUI.Instance.UpdateInventoryUI();
                     return;
                 }
             }
@@ -158,7 +158,7 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
                 // Refresh UI
                 FindFirstObjectByType<InventoryUI>().UpdateInventoryUI();
-                
+
                 isPointerOver = false;
                 HideTooltip();
             }
@@ -175,7 +175,7 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         // Ensure drag image is hidden after combination attempt
         dragImage.enabled = false;
     }
-    
+
     private void ShowTooltip()
     {
         if (itemData != null)
@@ -183,14 +183,14 @@ public class InventorySlotUI : MonoBehaviour, IBeginDragHandler, IDragHandler, I
             tooltip.GetComponent<TooltipUI>().SetShow(true);
         }
     }
-    
+
     private void HideTooltip()
     {
-         tooltip.GetComponent<TooltipUI>().SetShow(false);
-         tooltip.GetComponent<Image>().enabled = false;  // Disable the background image
-         foreach (Transform child in tooltip.transform)
-         {
-             child.gameObject.SetActive(false);  // Hide all tooltip child objects
-         }
+        tooltip.GetComponent<TooltipUI>().SetShow(false);
+        tooltip.GetComponent<Image>().enabled = false;  // Disable the background image
+        foreach (Transform child in tooltip.transform)
+        {
+            child.gameObject.SetActive(false);  // Hide all tooltip child objects
+        }
     }
 }

@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 52_Rope
   m_EditorClassIdentifier: 
-  itemName: Rope
+  itemName: Seil
   itemID: 52
-  description: 'An old rope from the local well -
-
-    could still be used'
+  description: "Ein altes Seil.\nK\xF6nnte man noch nutzen."
   icon: {fileID: 7556121490659006303, guid: a32bb98a35d891046881812d848b9cb4, type: 3}
   possibleCombinations:
   - otherItemID: 51

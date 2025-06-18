@@ -33,6 +33,14 @@ public class PlayerAnimatorController : MonoBehaviour
 
         // Flip based on movement direction instead of raw delta
         Vector2 moveDir = playerMovement.GetMoveDirection();
+        bool isIntentionallyMoving = moveDir.sqrMagnitude > 0.5f;
+
+        // Only stop mirroring if player is intentionally moving
+        if (isIntentionallyMoving && animator.GetBool("Mirroring"))
+        {
+            animator.SetBool("Mirroring", false);
+        }
+
         if (moveDir.x > 0.01f)
             spriteRenderer.flipX = false;
         else if (moveDir.x < -0.01f)

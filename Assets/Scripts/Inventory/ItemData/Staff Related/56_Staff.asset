@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 56_Staff
   m_EditorClassIdentifier: 
-  itemName: Staff
+  itemName: Magischer Stab der Anderen Welt
   itemID: 56
-  description: "A Magical Staff containing the \nUNMATCHED POWER OF THE SUN -\ntry
-    not to burn anything"
+  description: "Ein m\xE4chtiger Stab eines Magisters . . . DAS BIN ICH!!!\nIch sp\xFCre
+    die Kraft in meinem Exoskelett . . ."
   icon: {fileID: -6465342218107475841, guid: b5038b7acc960d34fbff1c58cd586365, type: 3}
   possibleCombinations:
   - otherItemID: 57
     resultItem: {fileID: 11400000, guid: 5cbbb81c839f4fc47956aa798e0f6a68, type: 2}
+  - otherItemID: 66
+    resultItem: {fileID: 11400000, guid: 3e3b3c0449904be4ea761bf3b59ef86d, type: 2}

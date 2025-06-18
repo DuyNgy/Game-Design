@@ -1,7 +1,9 @@
 using UnityEngine;
 using Project.Dialogue.Data;
 using System.Collections.Generic;
-using Project.Interactable.NPC;
+using Project.Interactable.NPCs;
+using Project.Inventory;
+using UnityEngine.SceneManagement;
 
 namespace Project.Dialogue
 {
@@ -15,9 +17,9 @@ namespace Project.Dialogue
         public NPC CurrentSpeakingNPC => currentSpeakingNPC;
 
         [SerializeField] private DialogueUI dialogueUI;
+        [SerializeField] private InventoryUI inventoryUI;
         private DialogueData currentDialogueData;
         private DialogueLine currentDialogue;
-        private Vector3 currentPosition;
         private GameObject currentDialogueUIObject;
         private NPC currentSpeakingNPC;
 
@@ -38,9 +40,9 @@ namespace Project.Dialogue
 
             if (dialogueData == null || dialogueID == "") return;
             currentSpeakingNPC = speaker;
-            
+
             currentSpeakingNPC.PlayTalkingAnimation();
-            
+
             var dialogeUIObject = Instantiate(dialogueUI);
             currentDialogueUIObject = dialogeUIObject.gameObject;
             currentDialogueData = dialogueData;
@@ -51,17 +53,20 @@ namespace Project.Dialogue
                 currentDialogue = dialogueLine;
                 dialogeUIObject.DisplayDialogue(dialogueLine);
             }
+
+            if (currentDialogue.Rewards != null && currentDialogue.Rewards.Count > 0)
+            {
+                GiveRewards(currentDialogue.Rewards);
+            }
         }
 
         public void EndDialogue()
         {
-            Debug.Log($"Ending dialogue {currentDialogue?.DialogueID}");
-            
             if (currentSpeakingNPC != null)
             {
                 currentSpeakingNPC.StopTalkingAnimation();
             }
-            
+
             if (currentDialogueUIObject != null)
             {
                 Destroy(currentDialogueUIObject);
@@ -75,19 +80,22 @@ namespace Project.Dialogue
         public void MakeChoice(int choiceIndex)
         {
             choiceIndex = Mathf.Clamp(choiceIndex, 0, currentDialogue.Choices.Count - 1);
-            Debug.Log($"Making choice {choiceIndex} for dialogue {currentDialogue.DialogueID}");
             if (currentDialogue == null) return;
             var choice = currentDialogue.Choices[choiceIndex];
+
+            if (choice.shouldBeRemoved)
+            {
+                choice.isRemoved = true; // Mark the choice as used
+            }
+
             if (CheckConditions(choice.Conditions))
             {
-                GiveRewards(currentDialogue.Rewards);
                 StartDialogue(currentDialogueData, choice.NextDialogueID, currentSpeakingNPC);
             }
         }
 
         private bool CheckConditions(List<DialogueCondition> conditions)
         {
-            Debug.Log($"Checking conditions for dialogue {currentDialogue.DialogueID}");
             if (conditions == null) return true;
 
             foreach (var condition in conditions)
@@ -107,10 +115,20 @@ namespace Project.Dialogue
 
             foreach (var reward in rewards)
             {
+                if (reward.isGiven) continue; // Skip if the reward has already been given
                 switch (reward.Type)
                 {
                     case RewardType.Item:
-                        Debug.Log($"Giving rewards {reward.ItemID} for dialogue {currentDialogue.DialogueID}");
+                        Debug.Log($"Giving rewards {reward.Item.itemName} for dialogue {currentDialogue.DialogueID}");
+                        for (int i = 0; i < reward.Amount; i++)
+                        {
+                            InventoryManager.Instance.AddItem(reward.Item);
+                            inventoryUI.UpdateInventoryUI();
+                            reward.isGiven = true; // Mark the reward as given
+                        }
+                        break;
+                    case RewardType.SceneToLoad:
+                        SceneManager.LoadScene(reward.SceneToLoad);
                         break;
                 }
             }

@@ -26,10 +26,16 @@ public class TooltipUI : MonoBehaviour
 
     private void Update()
     {
-        if (canvasGroup != null && showTooltip)
+        if (canvasGroup&& showTooltip)
         {
             Vector2 cursorPosition = Input.mousePosition;
             RectTransform tooltipRect = tooltipObject.GetComponent<RectTransform>();
+            
+            // Set pivot to bottom left
+            tooltipRect.pivot = new Vector2(0, 0);
+
+            // Apply a small offset to avoid overlapping directly under mouse
+            cursorPosition += new Vector2(10f, 10f);
 
             tooltipObject.transform.position = cursorPosition;
         }
@@ -39,7 +45,7 @@ public class TooltipUI : MonoBehaviour
     {
         nameText.text = name;
         descriptionText.text = description;
-        Debug.Log("CHANGE TOOLTIP");
+        // Debug.Log("CHANGE TOOLTIP");
     }
 
     public void SetShow(bool show)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace Project.Helper
 {
@@ -16,6 +17,11 @@ namespace Project.Helper
         /// </summary>
         public GameObject GetGameObject()
         {
+            if (EventSystem.current.IsPointerOverGameObject()) 
+            {
+                return null;
+            }
+            
             Vector2 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D[] hits = Physics2D.RaycastAll(mousePosition, Vector2.zero);
 

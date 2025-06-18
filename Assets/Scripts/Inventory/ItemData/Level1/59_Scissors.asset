@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
+  m_Name: 59_Scissors
+  m_EditorClassIdentifier: 
+  itemName: Schere
+  itemID: 59
+  description: Meine alte Gartenschere. Praktisch im Wald!
+  icon: {fileID: -5538908342871423228, guid: ad9bcdd0973a31b4da8a5af1d79171b9, type: 3}
+  possibleCombinations:
+  - otherItemID: 64
+    resultItem: {fileID: 11400000, guid: 0443acd3c60d48f45a70d3c567c60210, type: 2}

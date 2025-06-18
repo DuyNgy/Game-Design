@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
+  m_Name: 65_GeschnitteneBlume
+  m_EditorClassIdentifier: 
+  itemName: Geschnittene Blume
+  itemID: 65
+  description: Eine geschnittene Blume
+  icon: {fileID: -1862803452372842335, guid: baaffe979fb119546aca15fe57104c98, type: 3}
+  possibleCombinations: []
