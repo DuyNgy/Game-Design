@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 71a715ab6eeb5e04f8d7c40ea593040b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5290371962753587920
+    second: house_door_closed_0
+  - first:
+      213: -631567445009208463
+    second: house_door_closed_1
+  - first:
+      213: 8053647622772340222
+    second: house_door_closed_2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0.158
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: house_door_closed_0
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 666
+        width: 609
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da1d91454d2b6940800000000000000
+      internalID: 5290371962753587920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_door_closed_1
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 896
+        width: 490
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b668441c83c37f0800000000000000
+      internalID: -631567445009208463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_door_closed_2
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 192
+        width: 385
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5b385c7dd44cf60800000000000000
+      internalID: 8053647622772340222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape:
+    - - {x: 388.12497, y: -408.74997}
+      - {x: 389.99997, y: -268.125}
+      - {x: 386.24997, y: -104.99999}
+      - {x: 389.99997, y: 78.74999}
+      - {x: 395.62497, y: 142.5}
+      - {x: 395.62497, y: 238.12498}
+      - {x: 393.74997, y: 292.5}
+      - {x: 389.99997, y: 333.74997}
+      - {x: 354.37497, y: 455.62497}
+      - {x: 328.12497, y: 494.99997}
+      - {x: 245.62498, y: 577.5}
+      - {x: 211.87498, y: 599.99994}
+      - {x: 142.5, y: 620.62494}
+      - {x: 63.749996, y: 620.62494}
+      - {x: -7.4999995, y: 609.37494}
+      - {x: -37.499996, y: 598.12494}
+      - {x: -106.87499, y: 558.75}
+      - {x: -157.49998, y: 513.75}
+      - {x: -179.99998, y: 483.74997}
+      - {x: -202.49998, y: 429.37497}
+      - {x: -217.49998, y: 356.24997}
+      - {x: -217.49998, y: 189.37498}
+      - {x: -215.62498, y: 31.874998}
+      - {x: -217.49998, y: 31.874998}
+      - {x: -217.49998, y: -67.5}
+      - {x: -209.99998, y: -178.12498}
+      - {x: -213.74998, y: -401.24997}
+      - {x: -209.99998, y: -404.99997}
+      - {x: 80.62499, y: -406.87497}
+      - {x: 153.74998, y: -414.37497}
+      - {x: 380.62497, y: -414.37497}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      house_door_closed_0: 5290371962753587920
+      house_door_closed_1: -631567445009208463
+      house_door_closed_2: 8053647622772340222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

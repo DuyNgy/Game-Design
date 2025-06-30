@@ -58,14 +58,14 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.95542634, y: 0.33347705}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 3570, y: 392, z: 0, w: 1123}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0.25
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -130,12 +130,32 @@ TextureImporter:
         width: 239
         height: 602
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 110.812675, y: -282.49997}
+        - {x: 110.812675, y: -31.249979}
+        - {x: 107.062675, y: 86.875015}
+        - {x: 99.562675, y: 141.25002}
+        - {x: 67.68768, y: 206.87502}
+        - {x: 47.06268, y: 236.875}
+        - {x: 22.687681, y: 240.625}
+        - {x: -35.437317, y: 240.625}
+        - {x: -44.812313, y: 236.875}
+        - {x: -74.81231, y: 190.00002}
+        - {x: -74.81231, y: 182.50002}
+        - {x: -71.06232, y: 169.37502}
+        - {x: -72.93732, y: 113.125015}
+        - {x: -71.06232, y: -48.124977}
+        - {x: -74.81231, y: -76.24998}
+        - {x: -74.81231, y: -139.99997}
+        - {x: -3.5623167, y: -213.12497}
+        - {x: 43.31268, y: -250.62497}
+        - {x: 92.062675, y: -293.74997}
+        - {x: 103.312675, y: -293.74997}
+      tessellationDetail: 0.217
       bones: []
       spriteID: 08b6cde2a2e7cb470800000000000000
       internalID: 8411736923661167488
@@ -152,12 +172,12 @@ TextureImporter:
         width: 10
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: dc3b8cb747dbdbbc0800000000000000
       internalID: -3765645405421259827
@@ -174,12 +194,12 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: cfb17806194d682e0800000000000000
       internalID: -2123776453403796484
@@ -196,12 +216,12 @@ TextureImporter:
         width: 7
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 64b833831a47e4470800000000000000
       internalID: 8380764192364530502
@@ -211,10 +231,30 @@ TextureImporter:
       weights: []
     outline: []
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: 1852.4999, y: -622.49994}
+      - {x: 1852.4999, y: -397.49997}
+      - {x: 1850.6249, y: -326.24997}
+      - {x: 1848.7499, y: -262.5}
+      - {x: 1835.6249, y: -193.12498}
+      - {x: 1811.2499, y: -148.12498}
+      - {x: 1786.8749, y: -116.24999}
+      - {x: 1771.8749, y: -108.74999}
+      - {x: 1711.8749, y: -108.74999}
+      - {x: 1700.6249, y: -118.12499}
+      - {x: 1676.2499, y: -144.375}
+      - {x: 1670.6249, y: -163.12498}
+      - {x: 1666.8749, y: -236.24998}
+      - {x: 1670.6249, y: -236.24998}
+      - {x: 1670.6249, y: -397.49997}
+      - {x: 1666.8749, y: -431.24997}
+      - {x: 1666.8749, y: -489.37497}
+      - {x: 1732.4999, y: -556.875}
+      - {x: 1833.7499, y: -643.12494}
+      - {x: 1844.9999, y: -643.12494}
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []

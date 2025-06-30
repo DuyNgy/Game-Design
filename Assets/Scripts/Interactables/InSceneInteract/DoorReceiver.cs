@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;
 using Project.Audio;
+using UnityEngine.UI;
 
 namespace Project.Interactable.InSceneInteract
 {
@@ -10,6 +11,9 @@ namespace Project.Interactable.InSceneInteract
     {
         public bool isLocked = false;
         public string sceneToLoad;
+        public GameObject opendoor;
+        public GameObject bgdoor;
+        
         public override bool TryUseItem(ItemData draggedItem)
         {
             // Check for a valid combination
@@ -39,8 +43,12 @@ namespace Project.Interactable.InSceneInteract
         {
             if (isLocked == false)
             {
+                gameObject.SetActive(false);
+                bgdoor.SetActive(false);
+                opendoor.SetActive(true);
+
                 FindFirstObjectByType<CustomAudioManager>().Play("door");
-                await Task.Delay(500);
+                await Task.Delay(1500);
                 Debug.Log("Changing Scene.");
                 SceneManager.LoadScene(sceneToLoad);
 

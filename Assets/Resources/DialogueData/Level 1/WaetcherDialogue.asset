@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WaetcherDialogue
   m_EditorClassIdentifier: 
   dialogueLines:
-  - SpeakerName: Holder
+  - SpeakerName: Holger
     DialogueID: 0
     Text: Was willst du, Buzz?
     Choices:
@@ -29,7 +29,7 @@ MonoBehaviour:
       Conditions: []
     Conditions: []
     Rewards: []
-  - SpeakerName: Holder
+  - SpeakerName: Holger
     DialogueID: 0_c-1
     Text: "Vergiss es, Trottel. Ich verlasse meinen Posten nur in Notf\xE4llen wie
       Br\xE4nde und solange ich hier stehte, kommt niemand raus."
@@ -41,7 +41,7 @@ MonoBehaviour:
       Conditions: []
     Conditions: []
     Rewards: []
-  - SpeakerName: Holder
+  - SpeakerName: Holger
     DialogueID: 0_c-2
     Text: Na der Grille sei Dank.
     Choices: []

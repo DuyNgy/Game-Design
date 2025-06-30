@@ -84,10 +84,9 @@ MonoBehaviour:
       RemovePlayer: 0
       MoveToPosition: {x: 0, y: 0}
       isGiven: 0
-      EndDialogue: 
   - SpeakerName: Omi
     DialogueID: 0_c-2
-    Text: "Holder? Das glaube ich nicht. Der hat sich doch gestern neue Vorh\xE4nge
+    Text: "Holger? Das glaube ich nicht. Der hat sich doch gestern neue Vorh\xE4nge
       bei IK\xE4fer gekauft!"
     Choices:
     - Text: Ach, ich renoviere nur. Ich brauch dringend einen moderneren Look.

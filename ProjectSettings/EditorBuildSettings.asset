@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutsceneStart.unity
     guid: 888b5b6d63b27f74281a6a1842660c63
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level 1/Level_1_Room.unity
     guid: df96fcccd93c49a4a912e2d63f272783
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level_1_house.unity
+    guid: 39c2abb67061d11428546a122e7ce1de
   - enabled: 1
     path: Assets/Scenes/Level 1/Level_1_Village.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02

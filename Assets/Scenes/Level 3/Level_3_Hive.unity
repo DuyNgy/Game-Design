@@ -302,10 +302,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
@@ -755,10 +755,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
@@ -2369,6 +2369,18 @@ PrefabInstance:
       propertyPath: m_margin.w
       value: 6.149536
       objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1358.0679
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -8.5255
+      objectReference: {fileID: 0}
     - target: {fileID: 7339425311807649614, guid: 2518b93090d60414683eca98d39ce548, type: 3}
       propertyPath: m_SizeDelta.y
       value: 70.0005
@@ -2376,6 +2388,16 @@ PrefabInstance:
     - target: {fileID: 7339425311807649614, guid: 2518b93090d60414683eca98d39ce548, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596073698162415572, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_text
+      value: "1.\tDen W\xE4chter oben mit dem Zauberstab durchs Licht des Fensters
+        blenden.\r\n2.\tSeinen Schl\xFCssel schnell genug nehmen.\r\n3.\tDer W\xE4chter
+        oben ruft dann den W\xE4chter unten zur Verst\xE4rkung.\r\n4.\tGummib\xE4rchen
+        und Kaugummi aus der Speisekammer nehmen.\r\n5.\tNimm einen Abdruck von dem 
+        T\xFCrschloss mit dem Kaugummi.\r\n6.\tSchmelze das Gummib\xE4rchen im Ofen.\r\n7.\tF\xFCge
+        Gummimasse mit Kaugummi zusammen.\r\n8.\t\xD6ffne die T\xFCr mit dem Gummimassenschl\xFCssel.\r\n9.\t\xD6ffne
+        die Dachbodenluke mit dem Schl\xFCssel und gehe nach drau\xDFen."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4257,8 +4279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 881640355}
   - component: {fileID: 881640358}
+  - component: {fileID: 881640359}
   - component: {fileID: 881640357}
-  - component: {fileID: 881640356}
   m_Layer: 0
   m_Name: nest_ladder_0
   m_TagString: Door
@@ -4281,22 +4303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1800728128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &881640356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 881640354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dcf484c8ce004545a92cd514e4949f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemRepresentation: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  isLocked: 0
-  sceneToLoad: Level_3_Top
 --- !u!61 &881640357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4398,6 +4404,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &881640359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881640354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8670f9ea4e2344689518517733c377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRepresentation: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  isLocked: 0
+  sceneToLoad: Level_3_Top
 --- !u!1 &895007633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,10 +6494,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
@@ -6526,7 +6548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1922979618149193216, guid: cca1add3be3d9174d8b58253602ac727, type: 3}
+  m_Sprite: {fileID: 2986095105091660353, guid: a82e7dc6b11565c45b0ef23314ed00b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9504,7 +9526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592932753710914425, guid: 1dd5563dc35db4442b3e74bec9377902, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4592932753710914425, guid: 1dd5563dc35db4442b3e74bec9377902, type: 3}
       propertyPath: m_AnchoredPosition.y

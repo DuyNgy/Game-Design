@@ -1757,10 +1757,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
@@ -2694,6 +2694,18 @@ PrefabInstance:
       propertyPath: m_margin.w
       value: 6.149536
       objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1386.1465
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827488731319421057, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.9268
+      objectReference: {fileID: 0}
     - target: {fileID: 7339425311807649614, guid: 2518b93090d60414683eca98d39ce548, type: 3}
       propertyPath: m_SizeDelta.y
       value: 70.0005
@@ -2701,6 +2713,20 @@ PrefabInstance:
     - target: {fileID: 7339425311807649614, guid: 2518b93090d60414683eca98d39ce548, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.00024414062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596073698162415572, guid: 2518b93090d60414683eca98d39ce548, type: 3}
+      propertyPath: m_text
+      value: "1.\tMit der Kapitalismus-Ameise sprechen - lerne, dass sie dir einen
+        Stock f\xFCr drei\t\t\tHonigtropfen verkauft und bekomme gratis Bl\xFCtenstaub.\n2.
+        \tSammle drei Honigtropfen:\n\t- einen aus der kleinen Blume nehmen\n\t-
+        die gro\xDFe Blume mit der Schere abschneiden und dann den Honig nehmen\n\t-
+        sammle den Schneckenschleim und kombiniere ihn mit Bl\xFCtenstaub\n3. \tLege
+        den Honig auf den Tisch - doch der Preis ist gestiegen.\n4. \tMit der Scherbe
+        kannst du am Tisch den Honig auf die doppelte Menge spiegeln.\n5. \tBekomme
+        den Stock von der Ameise.\n6. \tKombiniere den Stock mit der zerbrochenen
+        Br\xFCcke, um eine neue zu bauen.\n7. \tLaufe zur Schnecke und gib ihr den
+        restlichen Bl\xFCtenstaub, um den Motor zu \t\t\tstarten. Sie nimmt dich
+        jetzt mit."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4170,7 +4196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592932753710914425, guid: 1dd5563dc35db4442b3e74bec9377902, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 40
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4592932753710914425, guid: 1dd5563dc35db4442b3e74bec9377902, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4670,8 +4696,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 14.47, y: 14.5}
-    newSize: {x: 14.47, y: 14.5}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -4722,12 +4748,12 @@ SpriteRenderer:
   m_SortingLayerID: -1682414693
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6014134912050760463, guid: 1555bc9c9fe05804a8a79f5af7c255d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1555bc9c9fe05804a8a79f5af7c255d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 14.47, y: 14.5}
+  m_Size: {x: 20.48, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4990,10 +5016,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:
@@ -5044,7 +5070,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1922979618149193216, guid: cca1add3be3d9174d8b58253602ac727, type: 3}
+  m_Sprite: {fileID: 2986095105091660353, guid: a82e7dc6b11565c45b0ef23314ed00b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5404,10 +5430,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
-    m_PressedColor: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    m_HighlightedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
+    m_PressedColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.67058825, g: 0.67058825, b: 0.67058825, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.2
   m_SpriteState:

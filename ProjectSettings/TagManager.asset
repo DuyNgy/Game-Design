@@ -20,7 +20,7 @@ TagManager:
   - Wasp
   - Water
   - UI
-  - 
+  - UI Text
   - 
   - 
   - 
@@ -82,6 +82,9 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 1274524367
+    locked: 0
+  - name: menus
+    uniqueID: 2942635147
     locked: 0
   m_RenderingLayers:
   - Default

@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToNextScene: 55
-  sceneToLoad: Level_1_Room
+  sceneToLoad: Level_1_house
 --- !u!1 &2127988549
 GameObject:
   m_ObjectHideFlags: 0
