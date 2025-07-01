@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Kaugummi
   itemID: 74
-  description: Klebrig aber verformbar
+  description: 'Klebrig aber verformbar.
+
+'
   icon: {fileID: -5190833674909201187, guid: 7b6db34dc556647448f7b25e2ea5df4a, type: 3}
   possibleCombinations:
   - otherItemID: 76

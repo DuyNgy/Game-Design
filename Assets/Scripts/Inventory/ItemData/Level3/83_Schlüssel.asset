@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Schl\xFCssel"
   itemID: 83
-  description: "Ein Schl\xFCssel. \nWelche T\xFCren das wohl \xF6ffnet."
+  description: "Eigentum der Wespen. \nScheint wichtig zu sein."
   icon: {fileID: -3305733944857187851, guid: 98731bdc20a220d428772380a75b8e9d, type: 3}
   possibleCombinations:
   - otherItemID: 84

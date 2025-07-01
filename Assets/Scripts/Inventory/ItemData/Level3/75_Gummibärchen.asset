@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: "75_Gummib\xE4rchen"
   m_EditorClassIdentifier: 
-  itemName: "Gummib\xE4rchen"
+  itemName: "Gummib\xE4r"
   itemID: 75
-  description: Klebrig aber verformbar
+  description: "Unnat\xFCrliche Farbe in einer unnat\xFCrlichen Form.\nVielleicht
+    ja f\xFCr ein magisches Ritual..."
   icon: {fileID: -7133115109573968053, guid: d8e516535ec69ef4d95224048319b077, type: 3}
   possibleCombinations:
   - otherItemID: 77

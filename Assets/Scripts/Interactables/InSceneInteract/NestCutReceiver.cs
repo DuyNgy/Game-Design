@@ -24,12 +24,14 @@ namespace Project.Interactable.InSceneInteract
                 {
                     // Start cutting animation
                     StartCoroutine(TriggerAnimation());
+                    return true;
                 }
 
 
                 // CUSTOM LOGIC ----
             }
 
+            Object.FindFirstObjectByType<CustomAudioManager>().Play("wrong");
             Debug.Log("Can't use this item on the table.");
             return false;
         }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 54_RopeGlassShard
   m_EditorClassIdentifier: 
-  itemName: Scharfes Seil
+  itemName: Relikt und ein Seil
   itemID: 54
   description: Mein Relikt und ein Seil . . . durchaus magisch . . .
   icon: {fileID: -8425140679221238383, guid: 51a801361f04436418edf9face84b27c, type: 3}

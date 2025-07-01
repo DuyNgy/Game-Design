@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Magischer Stab der Anderen Welt
   itemID: 56
-  description: "Ein m\xE4chtiger Stab eines Magisters . . . DAS BIN ICH!!!\nIch sp\xFCre
-    die Kraft in meinem Exoskelett . . ."
+  description: "Ein vielseitig einsetzbarer Zauberstab.\nAngemessen f\xFCr einen
+    gro\xDFen Magier."
   icon: {fileID: -6465342218107475841, guid: b5038b7acc960d34fbff1c58cd586365, type: 3}
   possibleCombinations:
   - otherItemID: 57

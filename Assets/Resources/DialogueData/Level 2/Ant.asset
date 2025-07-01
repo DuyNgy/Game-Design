@@ -23,7 +23,7 @@ MonoBehaviour:
     - Text: Wer bist du denn?
       NextDialogueID: 0_c-1
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     - Text: "Warum sollte ich deinen Stock kaufen? Hier liegen \xFCberall welche!"
       NextDialogueID: 0_c-2
@@ -34,7 +34,7 @@ MonoBehaviour:
         Nur, weil du es behauptest?
       NextDialogueID: 0_c-3
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     - Text: "Was soll der Stock denn \xFCberhaupt kosten?"
       NextDialogueID: 0_c-4
@@ -58,7 +58,7 @@ MonoBehaviour:
         Nur, weil du es behauptest?
       NextDialogueID: 0_c-3
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     - Text: "Was soll der Stock denn \xFCberhaupt kosten?"
       NextDialogueID: 0_c-4
@@ -83,7 +83,7 @@ MonoBehaviour:
         Nur, weil du es behauptest?
       NextDialogueID: 0_c-3
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     - Text: "Was soll der Stock denn \xFCberhaupt kosten?"
       NextDialogueID: 0_c-4
@@ -106,25 +106,25 @@ MonoBehaviour:
     - Text: "Warum sollte ich deinen Stock kaufen? Hier liegen \xFCberall welche!"
       NextDialogueID: 0_c-2
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     - Text: "Was soll der Stock denn \xFCberhaupt kosten?"
       NextDialogueID: 0_c-4
       shouldBeRemoved: 1
-      isRemoved: 1
+      isRemoved: 0
       Conditions: []
     Conditions: []
     Rewards:
     - Type: 0
       Item: {fileID: 11400000, guid: 0eab87081dd9b63409c63ab671fd1fb1, type: 2}
-      Amount: 2
+      Amount: 1
       SceneToLoad: 
       delayToLoad: 0
       AnimationToPlay: 
       ObjectToRemove: {fileID: 0}
       RemovePlayer: 0
       MoveToPosition: {x: 0, y: 0}
-      isGiven: 1
+      isGiven: 0
   - SpeakerName: Ameise
     DialogueID: 0_c-4
     Text: "Drei Honigtropfen \u2013 nach aktuellem Kurs. Nat\xFCrlich nur solange

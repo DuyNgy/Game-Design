@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: "80_GummiSchl\xFCssel"
   m_EditorClassIdentifier: 
-  itemName: "Gummi Schl\xFCssel"
+  itemName: "Gummischl\xFCssel"
   itemID: 80
-  description: "Ein Schl\xFCssel. Kann etwas aufschlie\xDFen."
+  description: "Wabbeliger Schl\xFCssel, der allen Gesetzen \nder Physik trotzt."
   icon: {fileID: -5332339713119706758, guid: 054baa4cdcd18af4181f9b9dc6a8aa2e, type: 3}
   possibleCombinations:
   - otherItemID: 76

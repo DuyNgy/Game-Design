@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 51_Rod
   m_EditorClassIdentifier: 
-  itemName: Stock
+  itemName: Vorhangsstange
   itemID: 51
   description: 'Ein langer robuster Stock.
 

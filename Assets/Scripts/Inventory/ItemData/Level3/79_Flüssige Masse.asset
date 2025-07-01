@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: "79_Fl\xFCssige Masse"
   m_EditorClassIdentifier: 
-  itemName: "Fl\xFCssige Masse"
+  itemName: "Geschmolzener Gummib\xE4r"
   itemID: 79
-  description: "Eine fl\xFCssige Masse"
+  description: "Eine hei\xDFe, dickfl\xFCssige Masse."
   icon: {fileID: 21300000, guid: 2bc1b7313ce95424ebaabc7b5caa9f29, type: 3}
   possibleCombinations:
   - otherItemID: 78

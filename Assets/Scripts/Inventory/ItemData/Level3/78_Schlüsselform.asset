@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: "78_Schl\xFCsselform"
   m_EditorClassIdentifier: 
-  itemName: "Schl\xFCsselform"
+  itemName: "Schl\xFCsselloch-Abdruck"
   itemID: 78
-  description: "Eine Schl\xFCsselform aus Kaugummi"
+  description: "Hergestellt an der Gittert\xFCr der Wespen.\nWir verstehen auch nicht,
+    wie..."
   icon: {fileID: -8481999842012852370, guid: fdd1dded55426674c96a0a8cd93041f7, type: 3}
   possibleCombinations:
   - otherItemID: 79

@@ -53,10 +53,12 @@ namespace Project.Interactable.InSceneInteract
 
                     ant.SetDialogueData(antMirrorHoneyDialogue);
                     // TODO: stop animation when dialogue ends
+                    return true;
                 }
                 // CUSTOM LOGIC ----
             }
 
+            Object.FindFirstObjectByType<CustomAudioManager>().Play("wrong");
             Debug.Log("Can't use this item on the table.");
             return false;
         }

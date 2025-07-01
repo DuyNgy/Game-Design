@@ -16,12 +16,23 @@ MonoBehaviour:
   - SpeakerName: Ameise
     DialogueID: 0
     Text: "Oh wow, das ging aber schnell. Nun, das sollte gerade so reichen! Transaktion
-      best\xE4tigt."
+      best\xE4tigt. Nimm noch ein bisschen Bl\xFCtenstaub als Erstkunden-Pr\xE4mie
+      dazu."
     Choices: []
     Conditions: []
     Rewards:
     - Type: 0
       Item: {fileID: 11400000, guid: 3212f9b0b91ed4f42b7225426bce148f, type: 2}
+      Amount: 1
+      SceneToLoad: 
+      delayToLoad: 0
+      AnimationToPlay: 
+      ObjectToRemove: {fileID: 0}
+      RemovePlayer: 0
+      MoveToPosition: {x: 0, y: 0}
+      isGiven: 0
+    - Type: 0
+      Item: {fileID: 11400000, guid: 0eab87081dd9b63409c63ab671fd1fb1, type: 2}
       Amount: 1
       SceneToLoad: 
       delayToLoad: 0

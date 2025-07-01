@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2db5e5330562a498accaac6098e01a, type: 3}
   m_Name: 61_Pollen
   m_EditorClassIdentifier: 
-  itemName: Pollen
+  itemName: "Bl\xFCtenstaub"
   itemID: 61
-  description: Ein Haufen Pollen. Gut um jemanden anzutreiben.
+  description: 'Aufputschendes Pulver in einer grellen Farbe.
+
+    Geheimtipp unter
+    HIghperformern.'
   icon: {fileID: 21300000, guid: 431b8763a1ca34c43a9578c0fee37d03, type: 3}
   possibleCombinations:
   - otherItemID: 62

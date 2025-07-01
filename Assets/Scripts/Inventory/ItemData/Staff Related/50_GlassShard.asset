@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Magisches Relikt
   itemID: 50
-  description: "Ein magisches Relikt aus einer fernen Welt . . . \nDer Dorf\xE4lteste
-    nannte es \"Spiegel\"."
+  description: "Ein magisches Relikt aus einer fernen Welt . . . \nIch kann mich
+    selbst in ihm sehen."
   icon: {fileID: 3891023795430930065, guid: 033f5b020970eae4c9c3635a9179173f, type: 3}
   possibleCombinations:
   - otherItemID: 52
