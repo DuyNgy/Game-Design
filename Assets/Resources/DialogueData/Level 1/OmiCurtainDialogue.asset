@@ -17,96 +17,72 @@ MonoBehaviour:
     DialogueID: 0
     Text: "Das sind aber tolle Vorh\xE4nge. Warum willst du sie denn loswerden?"
     Choices:
-    - Text: Ach, ich renoviere nur. Ich brauch dringend einen moderneren Look.
+    - ChoiceID: a1
+      Text: Ach, ich renoviere nur. Ich brauch dringend einen moderneren Look.
       NextDialogueID: 0_c-1
       shouldBeRemoved: 1
       isRemoved: 0
       Conditions: []
-    Conditions: []
-    Rewards: []
-  - SpeakerName: Omi
-    DialogueID: 0_c-1
-    Text: Du Scherzkeks! Inneneinrichtung hat dich doch noch nie interessiert.
-    Choices:
-    - Text: "Der W\xE4chter vom Tor wollte mir die Vorh\xE4nge schon abkaufen. Wenn
+    - ChoiceID: a2
+      Text: "Der W\xE4chter vom Tor wollte mir die Vorh\xE4nge schon abkaufen. Wenn
         du sie auch willst, solltest du ihn wohl besser zuerst ausschalten."
       NextDialogueID: 0_c-2
       shouldBeRemoved: 1
       isRemoved: 1
       Conditions: []
-    - Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
+    - ChoiceID: a3
+      Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
         auf den Weg ins Unbekannte, also brauche ich sie nicht mehr
       NextDialogueID: 0_c-3
-      shouldBeRemoved: 1
-      isRemoved: 0
+      shouldBeRemoved: 0
+      isRemoved: 1
       Conditions:
       - Type: 0
         ItemID: 56
-    - Text: "Wir reden sp\xE4ter."
-      NextDialogueID: 
-      shouldBeRemoved: 0
-      isRemoved: 0
-      Conditions: []
     Conditions: []
     Rewards: []
   - SpeakerName: Omi
     DialogueID: 0_c-1
     Text: Du Scherzkeks! Inneneinrichtung hat dich doch noch nie interessiert.
     Choices:
-    - Text: "Der W\xE4chter vom Tor wollte mir die Vorh\xE4nge schon abkaufen. Wenn
+    - ChoiceID: a2
+      Text: "Der W\xE4chter vom Tor wollte mir die Vorh\xE4nge schon abkaufen. Wenn
         du sie auch willst, solltest du ihn wohl besser zuerst ausschalten."
       NextDialogueID: 0_c-2
       shouldBeRemoved: 1
-      isRemoved: 0
+      isRemoved: 1
       Conditions: []
-    - Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
+    - ChoiceID: a3
+      Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
         auf den Weg ins Unbekannte, also brauche ich sie nicht mehr
       NextDialogueID: 0_c-3
-      shouldBeRemoved: 1
+      shouldBeRemoved: 0
       isRemoved: 0
       Conditions:
       - Type: 0
         ItemID: 56
-    - Text: "Wir reden sp\xE4ter."
-      NextDialogueID: 
-      shouldBeRemoved: 0
-      isRemoved: 0
-      Conditions: []
     Conditions: []
-    Rewards:
-    - Type: 5
-      Item: {fileID: 0}
-      Amount: 0
-      SceneToLoad: 
-      delayToLoad: 2000
-      AnimationToPlay: 
-      ObjectToRemove: {fileID: 0}
-      RemovePlayer: 0
-      MoveToPosition: {x: 0, y: 0}
-      isGiven: 0
+    Rewards: []
   - SpeakerName: Omi
     DialogueID: 0_c-2
     Text: "Holger? Das glaube ich nicht. Der hat sich doch gestern neue Vorh\xE4nge
       bei IK\xE4fer gekauft!"
     Choices:
-    - Text: Ach, ich renoviere nur. Ich brauch dringend einen moderneren Look.
+    - ChoiceID: a1
+      Text: Ach, ich renoviere nur. Ich brauch dringend einen moderneren Look.
       NextDialogueID: 0_c-1
       shouldBeRemoved: 1
       isRemoved: 0
       Conditions: []
-    - Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
+    - ChoiceID: a3
+      Text: Ich habe ein magisches Artefakt gefunden und mache mich jetzt als Magier
         auf den Weg ins Unbekannte, also brauche ich sie nicht mehr
       NextDialogueID: 0_c-3
       shouldBeRemoved: 1
-      isRemoved: 0
+      isRemoved: 1
       Conditions:
       - Type: 0
         ItemID: 56
-    - Text: "Wir reden sp\xE4ter."
-      NextDialogueID: 
-      shouldBeRemoved: 0
-      isRemoved: 0
-      Conditions: []
     Conditions: []
     Rewards: []
   - SpeakerName: Omi

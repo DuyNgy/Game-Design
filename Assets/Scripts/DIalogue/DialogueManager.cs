@@ -22,6 +22,7 @@ namespace Project.Dialogue
         private DialogueData currentDialogueData;
         private DialogueLine currentDialogue;
         private GameObject currentDialogueUIObject;
+        private List<string> removedChoiceIDs = new List<string>();
         private NPC currentSpeakingNPC;
 
         private void Awake()
@@ -52,6 +53,14 @@ namespace Project.Dialogue
             if (dialogueLine != null)
             {
                 currentDialogue = dialogueLine;
+
+                // Setze isRemoved = true für alle Choices, deren ChoiceID in der Liste ist
+                foreach (var choice in currentDialogue.Choices) {
+                    if (removedChoiceIDs.Contains(choice.ChoiceID)) {
+                        choice.isRemoved = true;
+                    }
+                }
+
                 dialogeUIObject.DisplayDialogue(dialogueLine);
             }
 
@@ -87,6 +96,10 @@ namespace Project.Dialogue
             if (choice.shouldBeRemoved)
             {
                 choice.isRemoved = true; // Mark the choice as used
+            }
+
+            if (choice.shouldBeRemoved && !removedChoiceIDs.Contains(choice.ChoiceID)) {
+                removedChoiceIDs.Add(choice.ChoiceID);
             }
 
             if (CheckConditions(choice.Conditions))

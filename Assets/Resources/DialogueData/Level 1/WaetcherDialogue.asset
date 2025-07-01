@@ -17,12 +17,14 @@ MonoBehaviour:
     DialogueID: 0
     Text: Was willst du, Buzz?
     Choices:
-    - Text: "Beiseite, W\xE4chter! Ich verlasse nun das K\xE4ferdorf."
+    - ChoiceID: b1
+      Text: "Beiseite, W\xE4chter! Ich verlasse nun das K\xE4ferdorf."
       NextDialogueID: 0_c-1
-      shouldBeRemoved: 1
+      shouldBeRemoved: 0
       isRemoved: 1
       Conditions: []
-    - Text: "Vergiss es, du bist meiner Worte eh nicht w\xFCrdig."
+    - ChoiceID: b2
+      Text: "Vergiss es, du bist meiner Worte eh nicht w\xFCrdig."
       NextDialogueID: 0_c-2
       shouldBeRemoved: 0
       isRemoved: 0
@@ -34,7 +36,8 @@ MonoBehaviour:
     Text: "Vergiss es, Trottel. Ich verlasse meinen Posten nur in Notf\xE4llen wie
       Br\xE4nde und solange ich hier stehte, kommt niemand raus."
     Choices:
-    - Text: "Vergiss es, du bist meiner Worte eh nicht w\xFCrdig."
+    - ChoiceID: b2
+      Text: "Vergiss es, du bist meiner Worte eh nicht w\xFCrdig."
       NextDialogueID: 0_c-2
       shouldBeRemoved: 0
       isRemoved: 0

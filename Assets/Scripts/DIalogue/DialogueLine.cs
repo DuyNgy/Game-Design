@@ -25,6 +25,7 @@ namespace Project.Dialogue.Data
     [Serializable]
     public class DialogueChoice
     {
+        public string ChoiceID;
         public string Text;
         public string NextDialogueID;
         public bool shouldBeRemoved = true;

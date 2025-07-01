@@ -18,12 +18,14 @@ MonoBehaviour:
     Text: "...das ist eine Trag\xF6die! Diesmal sind sie wirklich zu weit gegangen.
       Ich w\xFCnschte, wir k\xF6nnt... oh, hallo, Fremder!"
     Choices:
-    - Text: Wer seid ihr denn?
+    - ChoiceID: d1-1
+      Text: Wer seid ihr denn?
       NextDialogueID: 0_c-1
       shouldBeRemoved: 1
       isRemoved: 1
       Conditions: []
-    - Text: Was ist denn hier los?
+    - ChoiceID: d1-2
+      Text: Was ist denn hier los?
       NextDialogueID: 1
       shouldBeRemoved: 0
       isRemoved: 0
@@ -35,7 +37,8 @@ MonoBehaviour:
     Text: "Ich bin Herbert, B\xFCrgermeister dieses bescheidenen Hummeldorfes. Diese
       Begr\xFC\xDFung eben tut mir leid, wir sind alle ein bisschen aufgebracht..."
     Choices:
-    - Text: Was ist denn hier los?
+    - ChoiceID: d1-2
+      Text: Was ist denn hier los?
       NextDialogueID: 1
       shouldBeRemoved: 0
       isRemoved: 0
@@ -48,18 +51,21 @@ MonoBehaviour:
       Das waren ganz sicher diese verdammten Wespen. Dieses Pack pl\xFCndert doch
       alles, was s\xFC\xDF ist!"
     Choices:
-    - Text: "Was denn f\xFCr Honigreserven?"
+    - ChoiceID: d2-1
+      Text: "Was denn f\xFCr Honigreserven?"
       NextDialogueID: 1_c-1
       shouldBeRemoved: 1
       isRemoved: 1
       Conditions: []
-    - Text: Wieso zahlt ihr es diesen Wespen nicht einfach heim? Euren Honig klauen,
+    - ChoiceID: d2-2
+      Text: Wieso zahlt ihr es diesen Wespen nicht einfach heim? Euren Honig klauen,
         das geht ja mal gar nicht!
       NextDialogueID: 1_c-2
       shouldBeRemoved: 1
       isRemoved: 1
       Conditions: []
-    - Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
+    - ChoiceID: d2-3
+      Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
         K\xF6nnt ihr mir helfen?"
       NextDialogueID: 1_c-3
       shouldBeRemoved: 0
@@ -73,13 +79,15 @@ MonoBehaviour:
       \xFCber den Winter zu bringen! Wir dachten eigentlich, dort unten in den Blumen
       w\xE4re er sicher vor den Wespen versteckt gewesen..."
     Choices:
-    - Text: Wieso zahlt ihr es diesen Wespen nicht einfach heim? Euren Honig klauen,
+    - ChoiceID: d2-2
+      Text: Wieso zahlt ihr es diesen Wespen nicht einfach heim? Euren Honig klauen,
         das geht ja mal gar nicht!
       NextDialogueID: 1_c-2
       shouldBeRemoved: 1
       isRemoved: 0
       Conditions: []
-    - Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
+    - ChoiceID: d2-3
+      Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
         K\xF6nnt ihr mir helfen?"
       NextDialogueID: 1_c-3
       shouldBeRemoved: 0
@@ -93,12 +101,14 @@ MonoBehaviour:
       ist streng bewacht und alle T\xFCren verschlossen... Man m\xFCsste schon zaubern
       k\xF6nnen, um unbeschadet bis aufs Dach des Wespennests zu kommen."
     Choices:
-    - Text: "Was denn f\xFCr Honigreserven?"
+    - ChoiceID: d2-1
+      Text: "Was denn f\xFCr Honigreserven?"
       NextDialogueID: 1_c-1
       shouldBeRemoved: 1
       isRemoved: 0
       Conditions: []
-    - Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
+    - ChoiceID: d2-3
+      Text: "Ich bin auf einer Reise bis zum Rand des Waldes und in die Lande dahinter.
         K\xF6nnt ihr mir helfen?"
       NextDialogueID: 1_c-3
       shouldBeRemoved: 0
@@ -112,7 +122,8 @@ MonoBehaviour:
       diesen diebischen Wespen zu nehmen, fliegen wir dich zum Dank aus dem Wald
       hinaus. Was sagst du?"
     Choices:
-    - Text: "Deal! Ihr habt Gl\xFCck, an einen waschechten Magier geraten zu sein.
+    - ChoiceID: d3-1
+      Text: "Deal! Ihr habt Gl\xFCck, an einen waschechten Magier geraten zu sein.
         Ich werde dieses Wespennest in Schutt und Asche legen, das schw\xF6re ich!"
       NextDialogueID: 2
       shouldBeRemoved: 0
